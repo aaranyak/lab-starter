@@ -45,26 +45,50 @@ Step 2: Inp
 - title: "Create an input statement"
  description: "Create an input statement that saves it as a variable"
  event:  	pull_request.synchronize
- actions: # a list of the actions that will occur when the step is triggered by an event
- - type: # the type of action, full list at https://lab.github.com/docs/actions
+ actions:
+  - type: gate
+    left: '%payload.changes[body][to]%'
+    operator: ===
+    right: var = input("Your age")
+    else:
+     - type: respond
+       with: 02_try-again.md
+  - type: respond
+    with: 02_nice-work.md
 
 Step 3: Manip
 - title: "Calculate the date and give the output"
  description: "This is the most important bit of writing a program"
  event: pull_request.synchronize
  actions: # a list of the actions that will occur when the step is triggered by an event
- - type: # the type of action, full list at https://lab.github.com/docs/actions
-
+ - type: # the type of action, full list at https://lab.github.com/docs/actions  - type: gate
+    left: '%payload.changes[body][to]%'
+    operator: ===
+    right: date = 2020 - age
+    else:
+     - type: respond
+       with: 03_try-again.md
+  - type: respond
+    with: 03_nice-work.md
 Step 4: Outp
 - title: "Show the output in the final thing"
  description: "Run the program on the device"
  event:  	pull_request.synchronise
  actions: # a list of the actions that will occur when the step is triggered by an event
- - type: # the type of action, full list at https://lab.github.com/docs/actions
+  - type: gate
+    left: '%payload.changes[body][to]%'
+    operator: ===
+    right: print("You were born on", date)
+    else:
+     - type: respond
+       with: 04_try-again.md
+  - type: respond
+    with: 04_nice-work.md
 Step 5: Merge
-- title: "Merge the files"
- description: "Merge the program to the thing"
- event:  	pull_request
+- title: "End the course"
+ description: "Finish the course"
+ event:  	issue_commented.created
  actions: # a list of the actions that will occur when the step is triggered by an event
- - type: # the type of action, full list at https://lab.github.com/docs/actions
+ - type: respond
+   with: end_message.md
 
