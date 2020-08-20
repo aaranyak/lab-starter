@@ -16,4 +16,12 @@
 
 ---
 
+| Next, use the input statement.
+
+| store it in a variable like this
+
+| age = input("What's your age?")
+
+---
+
 ## Good job
