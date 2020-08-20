@@ -16,4 +16,10 @@
 
 ---
 
+Next, create a new variable called date
+
+set date to 2020 - age
+
+---
+
 ## Good job
