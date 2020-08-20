@@ -8,15 +8,15 @@ description: "This will be a fun and simple python course for kids. In this cour
 # This will be used when the repository is crated for each individual learner
 
 template:
-  name: "Python-by-Puku"
-  repo: "https://github.com/aaranyak/PythonforPuku-lab-test"
+  name: Python-by-Puku
+  repo: https://github.com/aaranyak/PythonforPuku-lab-test
 
 # `before` block
 # Actions to take place after the learner registers, but before they start interacting with their repo
 
 before:
-- type: # the type of action, full list at https://lab.github.com/docs/actions/
-  # some actions require additional options, those should appear below `type:`
+- type: respond
+  with: 01_first_response.md
   # you can execute multiple actions in the `before` block
 
 # Steps for the course
