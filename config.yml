@@ -24,41 +24,34 @@ before:
 # Create one step for each action that a learner will complete
 
 steps:
-Step 1: Start
-- title: "Start the course
-  description: "Just the start of the course"
-  event: issue_commented.created
-  actions: # a list of the actions that will occur when the step is triggered by an event
-  - type: # the type of action, full list at https://lab.github.com/docs/actions
-
-Step 2: Out
+Step 1: Out
 - title: "Create the first output statement"
  description: "The start of the input-output sectiion"
  event:  	pull_request.synchronize
  actions: # a list of the actions that will occur when the step is triggered by an event
  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
-Step 3: Inp
+Step 2: Inp
 - title: "Create an input statement"
  description: "Create an input statement that saves it as a variable"
  event:  	pull_request.synchronize
  actions: # a list of the actions that will occur when the step is triggered by an event
  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
-Step 4: Manip
+Step 3: Manip
 - title: "Calculate the date and give the output"
  description: "This is the most important bit of writing a program"
  event: pull_request.synchronize
  actions: # a list of the actions that will occur when the step is triggered by an event
  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
-Step 5: Outp
+Step 4: Outp
 - title: "Show the output in the final thing"
  description: "Run the program on the device"
  event:  	pull_request.synchronise
  actions: # a list of the actions that will occur when the step is triggered by an event
  - type: # the type of action, full list at https://lab.github.com/docs/actions
-Step 6: Merge
+Step 5: Merge
 - title: "Merge the files"
  description: "Merge the program to the thing"
  event:  	pull_request
