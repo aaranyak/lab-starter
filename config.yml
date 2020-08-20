@@ -17,7 +17,7 @@ template:
 before:
 - type: respond
   with: 01_first_response.md
-  # you can execute multiple actions in the `before` block
+
 
 # Steps for the course
 # A list of steps that take the learner through the course
