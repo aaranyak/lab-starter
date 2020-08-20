@@ -60,7 +60,8 @@ Examples:
 1. Create a branch of this repository
 2. Clone the branch
 3. Open the file Handling_Data/Input-Output.py
-4. Replace the statement  `print("Hi Everybody!")` with a print stayement that introducesyour code
+4. Replace the statement  `print("Hi Everybody!")` with a print stayement.
+5. This statement should say Welcome to the age app!
 
 <hr>
 <h3 align="center">I will respond when I detect a commit to this branch</h3>
