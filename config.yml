@@ -9,7 +9,7 @@ description: "This will be a fun and simple python course for kids. In this cour
 
 template:
   name: Python-by-Puku
-  repo: https://github.com/aaranyak/PythonforPuku-lab-test
+  repo: PythonforPuku-lab-test
 
 # `before` block
 # Actions to take place after the learner registers, but before they start interacting with their repo
