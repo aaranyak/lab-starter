@@ -1,11 +1,37 @@
-# Title
+# Let's get Started
 
-This is the paragraph to would describe the concept. It may link to other resources, or include images. Try to avoid _too_ much information and _too_ many external links. The purpose of these paragraphs is to give the user the information they need to complete the activity, understand what they're doing, and understand why they're doing it.
+---
 
-### More detail 
 
-If there are concepts that should be described separately, they might belong in a subparagraph section like this one.
+Now we will get started. Python is a programming language. Using it, you can give the computer a set of instructions that tell it what to do.
 
+Using python, you can make many things like apps, games, even robots. But as our first goal, we should start simple.
+
+Lets start by creating a simple program that can tell when you were born by knowing your age.
+
+So let's get started
+
+[Get python here](https://python.org)
+
+### What you will need to do this course
+
+Here are a few important things you will need for this course.
+
+1. You will need to know how to use github:
+
+    - [ ] Create repositories
+  
+    - [ ] Use issues
+  
+    - [ ] Edit files
+  
+    - [ ] Create branches, pull requests, merges and commits
+  
+    - [ ] use the command line
+
+2. You will need python3 [Get Python3 Here](https://python.org)
+
+3. You will need a text editor, A good one is atom [Get Atom Here](
 ## Step X: Description
 
 Here, we'll describe generally what the user is about to do.
@@ -17,6 +43,6 @@ Here, we'll describe generally what the user is about to do.
 3. Step 3 in short sentence
 
 <hr>
-<h3 align="center">Watch below this comment for my response</h3>
+<h3 align="center">I will respond when I detect a commit to this branch</h3>
 
 > _Sometimes I respond too fast for the page to update! If you perform an expected action and don't see a response from me, wait a few seconds and refresh the page for your next steps._
