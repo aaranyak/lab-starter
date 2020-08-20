@@ -31,16 +31,36 @@ Here are a few important things you will need for this course.
 
 2. You will need python3 [Get Python3 Here](https://python.org)
 
-3. You will need a text editor, A good one is atom [Get Atom Here](
-## Step X: Description
+3. You will need a text editor, A good one is atom [Get Atom Here](https://www.atom.io)
 
-Here, we'll describe generally what the user is about to do.
+3. You will need all the git and git commands
 
-### :keyboard: Activity: Specific description
 
-1. Step 1 in short sentence
-2. Step 2 in short sentence
-3. Step 3 in short sentence
+## Our first part.
+
+In our first part, we will be making an age program, but the first thing we need to do is tell what we are doing.
+
+So the best way to start is by putting down what our program is about.
+
+The way we do his in pyton is by using a print statement
+
+This is what a print statement looks like
+
+`print("<YourText>")`
+
+Examples:
+
+ `print("mytext")`
+ 
+ `print(150 + 20)`
+
+
+### :keyboard: Activity: Introducing our program
+
+1. Create a branch of this repository
+2. Clone the branch
+3. Open the file Handling_Data/Input-Output.py
+4. Replace the statement  `print("Hi Everybody!")` with a print stayement that introducesyour code
 
 <hr>
 <h3 align="center">I will respond when I detect a commit to this branch</h3>
