@@ -22,17 +22,17 @@ before:
 # A list of steps that take the learner through the course
 # Create one step for each action that a learner will complete
 
+
 steps:
 Step 1: Out
 - title: "Create the first output statement"
  description: "The start of the input-output sectiion"
  event:  	pull_request.synchronize
  actions: # a list of the actions that will occur when the step is triggered by an event
- 
- - type: gate
-   left: '%payload.changes[body][to]%'
-   operator: ===
-   right: print("Welcome to the age app!")
+  - type: gate
+    left: '%payload.changes[body][to]%'
+    operator: ===
+    right: print("Welcome to the age app!")
    
 
 Step 2: Inp
