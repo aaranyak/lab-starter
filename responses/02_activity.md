@@ -42,9 +42,7 @@ Here are a few important things you will need for this activity.
          The python interpreter will not use the lines that start with the # sign.
 
 
-## Our first part.
-
-In our first part, we will be making an age program, but the first thing we need to do is tell what we are doing.
+## Our second part part.
 
 Next, we need to know what peoples age is.
 
