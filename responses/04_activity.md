@@ -1,10 +1,10 @@
-# Calculating the birth date
+# Giving the answer
 
 ---
 
-| Now, we know how to get something from the user.
+| Now, we know how to use variables
 
-| Now we need to calculate the birth date
+| Now we need to give the final answer.
 
 
 [Get python here](https://python.org)
