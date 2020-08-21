@@ -9,16 +9,7 @@ Just leave a comment so that I know you ended the course        utput commands u
         Use input statements as variables
         Use and manipulate variables
 
-Our fourth part.
+<hr>
+<h3 align="center">I will respond when I detect a comment on this issue</h3>
 
-In our last part, we need to tell the user our result
-
-use a print function
-
-print("ypur age is", age")
-keyboard Activity: Calculating the birth date.
-
-    Clone the branch
-    Open the file Handling_Data/Input-Output.py
-    In a new line, create a print function
-    it should say, "You were born on" date
+> _Sometimes I respond too fast for the page to update! If you perform an expected action and don't see a response from me, wait a few seconds and refresh the page for your next steps._
