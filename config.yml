@@ -39,7 +39,7 @@ steps:
     - type: respond
       with: 01_nice-work.md
     - type: respond
-      with: 02_activity.md,
+      with: 02_activity.md
 
    
 
@@ -58,12 +58,12 @@ steps:
     - type: respond
       with: 02_nice-work.md
     - type: respond
-      with: 03_activity.md,
+      with: 03_activity.md
 
 
   - title: "Calculate the date and give the output"
     description: "This is the most important bit of writing a program"
-    event:  	pull_request.synchronise
+    event:  	pull_request.synchronize
     actions: # a list of the actions that will occur when the step is triggered by an event
     - type: gate
       left: '%payload.changes[body][to]%'
@@ -75,12 +75,12 @@ steps:
     - type: respond
       with: 03_nice-work.md
     - type: respond
-      with: 04_activity.md,
+      with: 04_activity.md
 
 
   - title: "Show the output in the final thing"
     description: "Run the program on the device"
-    event:  	pull_request.synchronise
+    event:  	pull_request.synchronize
     actions: # a list of the actions that will occur when the step is triggered by an event
     - type: gate
       left: '%payload.changes[body][to]%'
@@ -92,12 +92,11 @@ steps:
     - type: respond
       with: 04_nice-work.md
     - type: respond
-      with: 05_activity.md,
+      with: 05_activity.md
 
   - title: "End the course"
     description: "Finish the course"
     event:  	issue_commented.created
     actions: # a list of the actions that will occur when the step is triggered by an event
     - type: respond
-      with: end_message.md,
-
+      with: end_message.md
