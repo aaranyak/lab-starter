@@ -57,10 +57,12 @@ Examples:
  
  `greet = "hello"`
  
- `print(name2)`
+ `sentence = greet + ", " + name`
+ 
+ `print(sentence)`
 
 
-### :keyboard: Activity: Getting the user's age
+### :keyboard: Activity: Calculating the birth date.
 
 1. Clone the branch
 2. Open the file Handling_Data/Input-Output.py
