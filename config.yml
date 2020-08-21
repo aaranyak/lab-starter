@@ -78,7 +78,7 @@ steps:
       with: 04_activity.md
 
 
-  - title: "Show the output in the final thing"
+  - title: "Show the output issue_comment.createdin the final thing"
     description: "Run the program on the device"
     event:  	pull_request.synchronize
     actions: # a list of the actions that will occur when the step is triggered by an event
