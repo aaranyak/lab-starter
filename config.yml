@@ -23,7 +23,7 @@ before:
 # Create one step for each action that a learner will complete
 
 
-steps:
+steps:[
   Step 1:
   - title: "Create the first output statement"
     description: "The start of the input-output sectiion"
@@ -39,7 +39,7 @@ steps:
     - type: respond
       with: 01_nice-work.md
     - type: respond
-      with: 02_activity.md
+      with: 02_activity.md,
 
    
 
@@ -58,7 +58,7 @@ steps:
     - type: respond
       with: 02_nice-work.md
     - type: respond
-      with: 03_activity.md
+      with: 03_activity.md,
 
   Step 3:
   - title: "Calculate the date and give the output"
@@ -75,7 +75,7 @@ steps:
     - type: respond
       with: 03_nice-work.md
     - type: respond
-      with: 04_activity.md
+      with: 04_activity.md,
 
   Step 4:
   - title: "Show the output in the final thing"
@@ -92,12 +92,12 @@ steps:
     - type: respond
       with: 04_nice-work.md
     - type: respond
-      with: 05_activity.md
+      with: 05_activity.md,
   Step 5:
   - title: "End the course"
     description: "Finish the course"
     event:  	issue_commented.created
     actions: # a list of the actions that will occur when the step is triggered by an event
     - type: respond
-      with: end_message.md
-
+      with: end_message.md,
+]
