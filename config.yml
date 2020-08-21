@@ -10,6 +10,7 @@ description: "This will be a fun and simple python course for kids. In this cour
 template:
   name: Python-by-Puku
   repo: PythonforPuku-lab-test
+  description: 'This is the repository for the python-by-puku course. '
 
 # `before` block
 # Actions to take place after the learner registers, but before they start interacting with their repo
