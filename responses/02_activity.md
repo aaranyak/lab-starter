@@ -4,7 +4,7 @@
 
 | Now, we know how to tell something the user, but how do we know what the user is telling us?
 
-| There are a few ways of getting user input like mous clicks, pressed keys and scroll wheel.
+| There are a few ways of getting user input like mouse clicks, pressed keys and scroll wheel.
 
 | But lets start simple. Our 
 
@@ -61,15 +61,16 @@ Examples:
  `name = input("What's your name?")`
  
  `name2 = name + 32`
+ 
+ `print(name2)`
 
 
 ### :keyboard: Activity: Getting the user's age
 
-1. Create a branch of this repository
-2. Clone the branch
-3. Open the file Handling_Data/Input-Output.py
-4. Replace the statement  `print("Hi Everybody!")` with a print stayement.
-5. This statement should say Welcome to the age app!
+1. Clone the branch
+2. Open the file Handling_Data/Input-Output.py
+3. In a new line, input the user's age into a variable called age
+4. This statement should ask How old are you
 
 <hr>
 <h3 align="center">I will respond when I detect a commit to this branch</h3>
