@@ -24,7 +24,7 @@ before:
 
 
 steps:
-Step 1: Out
+Step 1:
 - title: "Create the first output statement"
   description: "The start of the input-output sectiion"
   event:  	pull_request.synchronize
@@ -43,7 +43,7 @@ Step 1: Out
 
    
 
-Step 2: Inp
+Step 2:
 - title: "Create an input statement"
   description: "Create an input statement that saves it as a variable"
   event:  	pull_request.synchronize
@@ -60,7 +60,7 @@ Step 2: Inp
   - type: respond
     with: 03_activity.md
 
-Step 3: Manip
+Step 3:
 - title: "Calculate the date and give the output"
   description: "This is the most important bit of writing a program"
   event: pull_request.synchronize
@@ -77,7 +77,7 @@ Step 3: Manip
   - type: respond
     with: 04_activity.md
     
-Step 4: Outp
+Step 4:
 - title: "Show the output in the final thing"
   description: "Run the program on the device"
   event:  	pull_request.synchronise
@@ -93,7 +93,7 @@ Step 4: Outp
     with: 04_nice-work.md
   - type: respond
     with: 05_activity.md
-Step 5: Merge
+Step 5:
 - title: "End the course"
   description: "Finish the course"
   event:  	issue_commented.created
