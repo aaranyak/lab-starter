@@ -96,7 +96,7 @@ steps:
 
   - title: "End the course"
     description: "Finish the course"
-    event:  	issue_commented.created
+    event:  	issue_comment.created
     actions: # a list of the actions that will occur when the step is triggered by an event
     - type: respond
       with: end_message.md
