@@ -63,7 +63,7 @@ steps:
 
   - title: "Calculate the date and give the output"
     description: "This is the most important bit of writing a program"
-    event: pull_request.synchronize
+    event:    pull_request.synchronize
     actions: # a list of the actions that will occur when the step is triggered by an event
     - type: gate
       left: '%payload.changes[body][to]%'
