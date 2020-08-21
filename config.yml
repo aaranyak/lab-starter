@@ -25,8 +25,8 @@ before:
 
 steps:
 
-  - title: "Create the first output statement"
-    description: "The start of the input-output sectiion"
+  - title: "Introduce your program"
+    description: "Let's introduce our computer program to everybody"
     event:  	pull_request.synchronize
     actions: # a list of the actions that will occur when the step is triggered by an event
     - type: gate
@@ -44,8 +44,8 @@ steps:
    
 
 
-  - title: "Create an input statement"
-    description: "Create an input statement that saves it as a variable"
+  - title: "Get the user's input"
+    description: "Learn how to know what the user want's to say"
     event:  	pull_request.synchronize
     actions:
     - type: gate
@@ -61,7 +61,7 @@ steps:
       with: 03_activity.md
 
 
-  - title: "Calculate the date and give the output"
+  - title: "Calculate the date"
     description: "This is the most important bit of writing a program"
     event:  	pull_request.synchronize
     actions: # a list of the actions that will occur when the step is triggered by an event
@@ -78,8 +78,8 @@ steps:
       with: 04_activity.md
 
 
-  - title: "Show the output issue_comment.createdin the final thing"
-    description: "Run the program on the device"
+  - title: "Show the output"
+    description: "Now let's tell the user our output"
     event:  	pull_request.synchronize
     actions: # a list of the actions that will occur when the step is triggered by an event
     - type: gate
