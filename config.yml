@@ -26,9 +26,9 @@ before:
 steps:
 Step 1: Out
 - title: "Create the first output statement"
- description: "The start of the input-output sectiion"
- event:  	pull_request.synchronize
- actions: # a list of the actions that will occur when the step is triggered by an event
+  description: "The start of the input-output sectiion"
+  event:  	pull_request.synchronize
+  actions: # a list of the actions that will occur when the step is triggered by an event
   - type: gate
     left: '%payload.changes[body][to]%'
     operator: ===
@@ -45,9 +45,9 @@ Step 1: Out
 
 Step 2: Inp
 - title: "Create an input statement"
- description: "Create an input statement that saves it as a variable"
- event:  	pull_request.synchronize
- actions:
+  description: "Create an input statement that saves it as a variable"
+  event:  	pull_request.synchronize
+  actions:
   - type: gate
     left: '%payload.changes[body][to]%'
     operator: ===
@@ -62,10 +62,10 @@ Step 2: Inp
 
 Step 3: Manip
 - title: "Calculate the date and give the output"
- description: "This is the most important bit of writing a program"
- event: pull_request.synchronize
- actions: # a list of the actions that will occur when the step is triggered by an event
- - type: # the type of action, full list at https://lab.github.com/docs/actions  - type: gate
+  description: "This is the most important bit of writing a program"
+  event: pull_request.synchronize
+  actions: # a list of the actions that will occur when the step is triggered by an event
+  - type: gate
     left: '%payload.changes[body][to]%'
     operator: ===
     right: date = 2020 - age
@@ -75,13 +75,13 @@ Step 3: Manip
   - type: respond
     with: 03_nice-work.md
   - type: respond
-    with  04_activity.md
+    with: 04_activity.md
     
 Step 4: Outp
 - title: "Show the output in the final thing"
- description: "Run the program on the device"
- event:  	pull_request.synchronise
- actions: # a list of the actions that will occur when the step is triggered by an event
+  description: "Run the program on the device"
+  event:  	pull_request.synchronise
+  actions: # a list of the actions that will occur when the step is triggered by an event
   - type: gate
     left: '%payload.changes[body][to]%'
     operator: ===
@@ -95,9 +95,9 @@ Step 4: Outp
     with: 05_activity.md
 Step 5: Merge
 - title: "End the course"
- description: "Finish the course"
- event:  	issue_commented.created
- actions: # a list of the actions that will occur when the step is triggered by an event
- - type: respond
-   with: end_message.md
+  description: "Finish the course"
+  event:  	issue_commented.created
+  actions: # a list of the actions that will occur when the step is triggered by an event
+  - type: respond
+    with: end_message.md
 
