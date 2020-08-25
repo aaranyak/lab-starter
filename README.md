@@ -1,4 +1,4 @@
-# Python by Puku
+# [Python by Puku](https://lab.github.com/aaranyak/Python-by-Puku/)
 
 ### A simple python course for young coders
 
@@ -15,10 +15,10 @@ Finally it teaches how to use them in real-life contexts
 
 Hope you enjoy it!
 
-For more information, contact [Aaranyak](https://github.com/aaranyak/)
+For more information, contact [Aaranyak](https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=aaranyak.ghosh@gmail.com&su=Python+by+Puku)
 
 ---
 
 ## Thank You!
 
-[Python by Puku](https://github.com/aaranyak/PythonforPuku-lab-test)
+[To report a bug, go here.](https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=aaranyak.ghosh@gmail.com&su=Bug+Report+For+PythonbyPuku)
